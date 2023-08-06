@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+.menu{
+    background-color: green;
+    width: 700px;
+    padding: 5px;
+}
+
+.menu-sidebar{
+
+    width: 200px;
+    height: 600px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+    margin-top: -16px;
+
+}
+
+.visible{
+
+    display: block;
+}
+
+li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: -40px ;
+    text-align: center;
+    padding-top: 50px;
+}
+a{
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+a:hover{
+
+    background-color: green;
+
+}
+
+hr{
+    margin-left: -40px;
+    border: 2px solid green;
+}
+
+#menu-button,
+#menu-button > img{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+#menu-button{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
